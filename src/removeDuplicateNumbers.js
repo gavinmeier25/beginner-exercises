@@ -7,4 +7,6 @@
  * @param {any[]} list
  * @returns a new array of the numbers sorted
  */
-module.exports = function (list) {};
+module.exports = function (list) {
+  return [...new Set(list.sort((a, b) => a - b))];
+};

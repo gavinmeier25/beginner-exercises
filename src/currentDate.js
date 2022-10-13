@@ -7,4 +7,7 @@
  */
 module.exports = function () {
   // code here
+  const d = new Date();
+
+  return d.toLocaleDateString();
 };

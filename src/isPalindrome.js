@@ -15,4 +15,6 @@
  *
  * @return {boolean}
  */
-module.exports = function (word) {};
+module.exports = function (word) {
+  return word.toLowerCase() === word.toLowerCase().split('').reverse().join('');
+};

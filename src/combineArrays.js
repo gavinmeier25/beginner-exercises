@@ -15,4 +15,6 @@
  */
 module.exports = function (oneArr, twoArr) {
   // code here
+
+  return [...oneArr, ...twoArr];
 };
